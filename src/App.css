@@ -4,12 +4,9 @@
 
 .App {
   text-align: center;
+  background: #1A1B21;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .image-profile {
   position: absolute;
@@ -18,34 +15,39 @@
   left: 116px;
   top: 44px;
   border-radius: 0px 10px 0px 0px;
+  background: url(./images/my-profile-image.jpg);
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main > h1, h2, p {
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+main > h3 {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 414px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
