@@ -1,14 +1,9 @@
 import React from 'react';
-import profilePicture from '../images/my-profile-image.jpg';
 
+// exports the component holding the portfolio image
 export default function TopImage() {
     return (
-        <header>
-            <img 
-                src={profilePicture} 
-                alt="My picture"
-                className="image-profile"
-            />
-        </header>
+        <div className="image-profile">
+        </div>
     )
 }

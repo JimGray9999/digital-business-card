@@ -4,6 +4,8 @@ import ghIcon from '../images/GitHub-Icon.png';
 import twIcon from '../images/Twitter-Icon.png';
 import inIcon from '../images/Instagram-Icon.png';
 
+
+// footer with social media links
 export default function Footer() {
     
     return (
