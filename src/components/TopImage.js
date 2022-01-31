@@ -1,7 +1,14 @@
 import React from 'react';
+import profilePicture from '../images/my-profile-image.jpg';
 
 export default function TopImage() {
-    <main>
-        <img src="../images/my-profile-image.jpg" />
-    </main>
+    return (
+        <div>
+            <img 
+                src={profilePicture} 
+                alt="My picture"
+                className="image-profile"
+            />
+        </div>
+    )
 }
