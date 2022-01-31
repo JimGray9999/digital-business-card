@@ -3,12 +3,12 @@ import profilePicture from '../images/my-profile-image.jpg';
 
 export default function TopImage() {
     return (
-        <div>
+        <header>
             <img 
                 src={profilePicture} 
                 alt="My picture"
                 className="image-profile"
             />
-        </div>
+        </header>
     )
 }

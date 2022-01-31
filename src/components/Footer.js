@@ -1,10 +1,31 @@
 import React from 'react';
+import fbIcon from '../images/Facebook-Icon.png';
+import ghIcon from '../images/GitHub-Icon.png';
+import twIcon from '../images/Twitter-Icon.png';
+import inIcon from '../images/Instagram-Icon.png';
 
 export default function Footer() {
     
     return (
         <footer>
-            <h1>This is my footer.</h1>
+            <div>
+                <img
+                    src={twIcon}
+                    alt="Twitter"
+                />
+                <img
+                    src={fbIcon}
+                    alt="Facebook"
+                />
+                <img
+                    src={inIcon}
+                    alt="Instagram"
+                />
+                <img
+                    src={ghIcon}
+                    alt="GitHub"
+                />
+            </div>
         </footer>
     )
 }
