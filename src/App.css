@@ -14,9 +14,10 @@
   height: 317px;
   left: 116px;
   top: 44px;
-  border-radius: 0px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   background: url(./images/my-profile-image.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -29,16 +30,22 @@ footer {
   border-radius: 0px 0px 10px 10px;
 }
 
+main {
+
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  
+  background: #1A1B21;
+}
+
 main > h1, h2, p {
   color: #FFFFFF;
 }
 
 main > h3 {
-  position: absolute;
-  width: 178.06px;
-  height: 14.19px;
-  left: 186px;
-  top: 414px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -46,6 +53,24 @@ main > h3 {
   line-height: 15px;
   text-align: center;
   color: #F3BF99;
+}
+
+main > h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+main > img {
+  padding: 5px;
+}
+
+footer > div > img {
+  padding: 15px;
 }
 
 
