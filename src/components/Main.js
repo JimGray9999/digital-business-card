@@ -23,7 +23,7 @@ export default function Main() {
             </a>
             <div>
                 <h2>About</h2>
-                <p>about me.</p>
+                <p>Software Test Engineer since 2018</p>
             </div>
             <div>
                 <h2>Interests</h2>
