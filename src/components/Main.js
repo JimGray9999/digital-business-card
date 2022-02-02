@@ -9,15 +9,18 @@ export default function Main() {
             <h1>Jim Gray</h1>
             <h3>Software Test Engineer</h3>
             <h4>jgray8689@gmail.com</h4>
-            <img
-                src={EmailBtn}
-                alt="Email Button"
-            />
-            <img
-                src={LNBtn}
-                alt="LinkedIn Button"
-            />
-
+            <a href="mailto:jgray8689@gmail.com" target="_blank" rel="noreferrer">
+                <img
+                    src={EmailBtn}
+                    alt="Email Button"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/jgray00/" target="_blank" rel="noreferrer">
+                <img
+                    src={LNBtn}
+                    alt="LinkedIn Button"
+                />
+            </a>
             <div>
                 <h2>About</h2>
                 <p>about me.</p>
